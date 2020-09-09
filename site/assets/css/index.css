@@ -1,0 +1,44 @@
+body{
+  background-image: url("/assets/images/bd.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  display: grid;
+  grid-template-rows: minmax(100px, 90%) 1fr;
+}
+
+@font-face{
+  font-family: "Source Code Pro";
+  src: url("/assets/fonts/SourceCodePro-Regular.ttf")
+}
+
+footer{
+  width: 100%;
+  height: 27px;
+  background:#73DB87;
+}
+
+.menu{
+  background-color: #060606;
+  opacity: 0.9;
+}
+
+.menu img{
+  width: 200px;
+
+}
+
+.menu span{
+  font-family: Source Code Pro;
+  color:#73DB87;
+}
+
+.menu{
+  height: 65vh; 
+}
+
+footer span{
+  font-family: Source Code Pro;
+  color:black; 
+}
